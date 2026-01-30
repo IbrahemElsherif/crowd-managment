@@ -5,6 +5,8 @@ __pycache__/
 *.so
 *mp4
 # Distribution / packaging
+.claude/
+.claude
 .Python
 build/
 develop-eggs/
