@@ -2,8 +2,6 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
-# C extensions
 *.so
 
 # Distribution / packaging
@@ -20,7 +18,50 @@ parts/
 sdist/
 var/
 wheels/
-share/python-wheels/
+pip-log.txt
+pip-delete-this-directory.txt
 *.egg-info/
+.installed.cfg
 
-.venv
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+data/
+*.mp4
+*.avi
+*.mov
+*.mkv
+output.*
+
+# YOLO models
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Logs
+*.log
+
+# UV
+uv.lock
+.python-version
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
