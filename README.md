@@ -6,7 +6,7 @@ A real-time crowd detection and counting application using YOLOv11 and OpenCV. D
 
 ![Demo GIF](assets/demo.gif)
 
-> **Note**: Demo coming soon! This placeholder shows where the demo GIF will appear once created.
+
 
 ## Features
 
