@@ -2,6 +2,12 @@
 
 A real-time crowd detection and counting application using YOLOv11 and OpenCV. Designed to monitor public spaces and alert when crowd density exceeds safety thresholds.
 
+## Demo
+
+![Demo GIF](assets/demo.gif)
+
+> **Note**: Demo coming soon! This placeholder shows where the demo GIF will appear once created.
+
 ## Features
 
 - **Real-time Detection**: Detects people in video streams using YOLOv11
@@ -81,6 +87,9 @@ crowd-management/
 ├── .gitignore
 ├── README.md
 ├── pyproject.toml
+├── run.py                   # Entry point script
+├── assets/                  # Demo GIFs and screenshots
+│   └── demo.gif            # Demo GIF (to be added)
 ├── data/                    # Store your videos here (gitignored)
 │   └── example.mp4
 └── src/
